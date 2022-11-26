@@ -1,0 +1,15 @@
+.avatar {
+  height: 64px;
+  width: 64px;
+  object-fit: cover;
+  object-position: 50% 50%;
+  border-radius: 50%;
+}
+
+.avatar-lg {
+  height: 80px;
+  width: 80px;
+  object-fit: cover;
+  object-position: 50% 50%;
+  border-radius: 50%;
+}

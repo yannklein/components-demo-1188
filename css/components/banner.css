@@ -1,0 +1,9 @@
+.banner {
+  color: white;
+  padding: 120px 0;
+  /* text-align: center; */
+  background-size: cover;
+  background-position: 50% 19%;
+  text-shadow: 0 0 8px rgb(0 0 0 / 70%);
+  margin-bottom: 32px;
+}
