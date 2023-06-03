@@ -1,9 +1,11 @@
 .banner {
   color: white;
   padding: 120px 0;
-  /* text-align: center; */
   background-size: cover;
-  background-position: 50% 19%;
-  text-shadow: 0 0 8px rgb(0 0 0 / 70%);
+  background-position: 50% 50%;
   margin-bottom: 32px;
+}
+
+.banner p, .banner h1 {
+  text-shadow: 0 0 8px rgb(0 0 0);
 }

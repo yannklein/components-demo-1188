@@ -1,11 +1,11 @@
 .card-category {
-  color: white;
-  font-size: 32px;
   height: 300px;
+  color: white;
+  font-size: 24px;
   display: flex;
-  justify-content: center;
   align-items: center;
-  text-shadow: 0 0 8px rgb(0 0 0 / 40%);
+  justify-content: center;
+  text-shadow: 0 0 8px rgb(0 0 0 / 50%);
   border-radius: 4px;
 }
 
@@ -13,13 +13,13 @@
   background-color: white;
   display: flex;
   align-items: center;
+  box-shadow: 0 0 16px rgb(0 0 0 / 20%);
 }
 
 .card-product img {
   height: 120px;
   width: 120px;
   object-fit: cover;
-  object-position: 50% 74%;
   margin-right: 16px;
 }
 
@@ -29,17 +29,16 @@
 
 .card-trip {
   background-color: white;
-  box-shadow: 0 0 16px rgba(0,0,0,0.3);
+  box-shadow: 0 0 16px rgb(0 0 0 / 20%);
   margin-bottom: 24px;
 }
 
-.card-trip img {
-  width: 100%;
+.card-trip > img {
   height: 300px;
-  object-fit: cover;
+  width: 100%;
 }
 
-.card-trip p, .card-trip h2 {
+.card-trip h2, .card-trip p {
   margin: 0;
 }
 
